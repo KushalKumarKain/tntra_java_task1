@@ -1,3 +1,4 @@
+
 function validateform(){ 
   event.preventDefault()
     let first_name = document.form.f_name.value;
@@ -68,4 +69,4 @@ function validateform(){
       document.getElementById("suggestions1").innerHTML = msg;
     }
     
-    }
+    ;}
