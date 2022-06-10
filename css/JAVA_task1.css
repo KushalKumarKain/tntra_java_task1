@@ -1,207 +1,198 @@
 form{
-    padding-top:30px;
-    padding-left: 20px;
-    padding-right: 10px;
-    background-color: white;
-    }
+  padding-top:30px;
+  padding-left: 20px;
+  padding-right: 10px;
+  background-color: white;
+}
 
 body{
-    background-color:lightblue;
-    padding-left:300px;
-    padding-right:250px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    }
-
-#first_name{
-    font-size: 16px;
-    color: red;
-}
-#num{
-    font-size: 16px;
-    color: red;
-}
-#mail{
-    font-size: 16px;
-    color: red;
+  background-color:lightblue;
+  padding-left:300px;
+  padding-right:250px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.firstname{
-    position: relative;
-    top:-15px;
-    line-height:30px;
-    text-transform: capitalize;
-    font-size: 16px;
-    width: 380px;
-    }
-
-.lastname{
-    position: relative;
-    right: 0;
-    bottom: 0;
-    left:444px;
-    top:-82px;
-    line-height:30px;
-    text-transform: capitalize;
-    padding:0px;
-    font-size: 16px;
-    width: 440px;
-    }
-
-.firstlabel{
-    position: relative;
-    text-transform: capitalize;
-    font-size:14px;
-    top:0px;
-    }
-
-.lastlabel{
-    position: relative;
-    text-transform: capitalize;
-    font-size:14px;
-    left:445px;
-    top:-80px;
-    }
-
-.address:after {
-        content:" *";
-        color: red;
-} 
-
-.city{
-    position: relative;
-    top:-10px;
-    text-transform: capitalize;
-    padding:0 22px;
-    font-size: 15px;
-    left: -20px;
-    }
-
-.rajya{
-    position: relative;
-    left:390px;
-    top:-35px;
-    line-height:30px;
-    text-transform: capitalize;
-    font-size: 16px;
-    width: 440px;
-    }
-
-.shaher{
-    position: relative;
-    line-height:30px;
-    text-transform: capitalize;
-    font-size:14px;
-    top:0px;
-    width: 440px;
-    }
-
-.state{
-    position: relative;
-    text-transform: capitalize;
-    font-size:14px;
-    left:-55px;
-    top:-10px;
-    }
-
-.streetadd{
-    position: relative;
-    font-size: 15px;
-    left: 0px;
-    top: -18px;
-}
-.streetadd2{
-    position: relative;
-    font-size: 15px;
-    left: 0px;
-    top: -18px;
-}
-
-.postal{
-    position: relative;
-    font-size: 15px;
-    left: 0px;
-    top: -18px;
-}
-
-::placeholder{
-    color: gray;
-    }
-.email{
-    height: 25px;
-    margin-bottom: 5px;
-    width: 73px;
-}
-.emaillabel{
-    position: relative;
-    font-size:15px;
-    left:0px;
-    top:-20px;
-}
-.number{
-    height: 30px;
-    width: 200px;
-    margin-bottom: 0;
-}
-
-button{
-
-    background-color:green;
-    color: aliceblue;
-    text-align: center;
-    border-radius: 1px;
-    font-size:15px;
-    padding:14px 110px;
-    cursor:pointer;
-    }
-
-button:hover{
-    background-color: blue;
-    } */
-
-table,th,td{
-    border: 1px solid;
-    border-collapse: collapse;
-    border-color:lightgray;
-    }
-table{
-    margin-bottom: 45px;
-    width: 98%;
-    font-size: 20px;
-    }
-
-p{
-    font-size: 20px;
-}
-
-.check{
-    width: 344px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    height: 26px;
-    font-size: larger;
-    font-weight: bold;
-}
-
-.gender{
-    font-size: larger;
+#first_name,#num,#mail,#first_name,#last_name,#addline1,
+#addline2,#city1,#state1,#postal1,#feedback1,#suggestions1{
+  font-size: 16px;
+  color: red;
 }
 
 .name:after {
-    content:" *";
-    color: red;
+  content:" *";
+  color: red;
 }
-.number:after {
-    content:" *";
-    color: red;
+.firstname{
+  position: relative;
+  top:-15px;
+  line-height:30px;
+  text-transform: capitalize;
+  font-size: 16px;
+  width: 404px;
+}
+.lastname{
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left:444px;
+  top:-118px;
+  line-height:30px;
+  text-transform: capitalize;
+  padding:0px;
+  font-size: 16px;
+  width: 440px;
+}
+#first_name{
+	position: relative;
+	width: 139px;
+}
+.firstlabel{
+  position: relative;
+  text-transform: capitalize;
+  font-size:14px;
+  top:-15px;
+}
+.lastlabel{
+  position: relative;
+  text-transform: capitalize;
+  font-size:14px;
+  left:445px;
+  top:-117px;
+}
+#last_name{
+	position: relative;
+	width: 139px;
 }
 
-.option{
-    width: 150px;
-    font-size: 17px;
+.address:after{
+  content:" *";
+  color: red;
+} 
+.city{
+  position: relative;
+  top:-10px;
+  text-transform: capitalize;
+  padding:0 22px;
+  font-size: 15px;
+  left: -20px;
 }
+.rajya{
+  position: relative;
+  left:390px;
+  top:-35px;
+  line-height:30px;
+  text-transform: capitalize;
+  font-size: 16px;
+  width: 440px;
+}
+.shaher{
+  position: relative;
+  line-height:30px;
+  text-transform: capitalize;
+  font-size:14px;
+  top:0px;
+  width: 440px;
+}
+.state{
+  position: relative;
+  text-transform: capitalize;
+  font-size:14px;
+  left:-55px;
+  top:-10px;
+}
+.streetadd{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: -18px;
+}
+.streetadd2{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: -18px;
+}
+.postal{
+  position: relative;
+  font-size: 15px;
+  left: 0px;
+  top: -18px;
+}
+::placeholder{
+    color: gray;
+}
+
+.number{
+  height: 30px;
+  width: 200px;
+  margin-bottom: 0;
+}
+.number:after {
+	content:" *";
+	color: red;
+}
+
+.email{
+  height: 25px;
+  margin-bottom: 5px;
+  width: 73px;
+}
+.emaillabel{
+  position: relative;
+  font-size:15px;
+  left:0px;
+  top:-20px;
+}
+
+.check{
+  width: 344px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: 26px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.gender{
+	font-size: larger;
+}
+.option{
+	width: 150px;
+	font-size: 17px;
+}
+
+table,th,td{
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color:lightgray;
+}
+table{
+  margin-bottom: 45px;
+  width: 98%;
+  font-size: 20px;
+}
+
+p{
+  font-size: 20px;
+}
+
 .legend{
-    width: 350px;
-    padding-left: 0;
-    padding-right: 0;
+  width: 350px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+button{
+  background-color:green;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 1px;
+  font-size:15px;
+  padding:14px 110px;
+  cursor:pointer;
+}
+
+button:hover{
+  background-color: blue;
 }
