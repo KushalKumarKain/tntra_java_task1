@@ -12,8 +12,6 @@ function validateform(){
     let feedback1 = document.form.feedback.value;
     let suggestions1 = document.form.suggestions.value;
 
-
-    
     if (first_name == ""){
       let msg;
       msg = "This field is required";
