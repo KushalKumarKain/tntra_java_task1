@@ -13,6 +13,7 @@ function validateform(){
     let feedback1 = document.form.feedback.value;
     let suggestions1 = document.form.suggestions.value;
     var radioselect = document.form.querySelector('input[name="gender"]:checked');
+    var dropdown1 = document.form.dropdown.value;
 
     if (first_name == ""){
       let msg;
@@ -69,16 +70,32 @@ function validateform(){
       msg = "This field is required";
       document.getElementById("suggestions1").innerHTML = msg;
     }
-    {
-    if (radioselect != null){
-      document.getElementById("gender1").innerHTML= radioselect.value + " gender is selected";
+
+    if (dropdown1 == ""){
+      let msg;
+      msg = "This field is required";
+      document.getElementById("dropdown1").innerHTML = msg;
     }
+
+    {
+    if (radioselect != null)
+      {
+        document.getElementById("gender1").innerHTML= radioselect.value + " gender is selected";
+      }
 
     else{
       let msg;
       msg = "This field is required";
       document.getElementById("gender1").innerHTML = msg;
+      }
     }
+    {
+    if (document.getElementById("<%=ddl_country.ClientID%>").value == "--Choose Option")
+      {    
+        alert('!!!!!!Please Enter a country.');    
+        document.getElementById("<%=ddl_country.ClientID%>").focus();    
+        return false;    
+      }    
+    return true;    
     }
-    
-    ;}
+;}
