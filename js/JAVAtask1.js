@@ -89,13 +89,13 @@ function validateform(){
       document.getElementById("gender1").innerHTML = msg;
       }
     }
-    {
-    if (document.getElementById("<%=ddl_country.ClientID%>").value == "--Choose Option")
-      {    
-        alert('!!!!!!Please Enter a country.');    
-        document.getElementById("<%=ddl_country.ClientID%>").focus();    
-        return false;    
-      }    
-    return true;    
-    }
+    // {
+    // if (document.getElementById("<%=ddl_country.ClientID%>").value == "--Choose Option")
+    //   {    
+    //     alert('!!!!!!Please Enter a country.');    
+    //     document.getElementById("<%=ddl_country.ClientID%>").focus();    
+    //     return false;    
+    //   }    
+    // return true;    
+    // }
 ;}
