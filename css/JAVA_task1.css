@@ -14,7 +14,7 @@ body{
 }
 
 #first_name,#num,#mail,#first_name,#last_name,#addline1,
-#addline2,#city1,#state1,#postal1,#feedback1,#suggestions1,#gender1{
+#addline2,#city1,#state1,#postal1,#feedback1,#suggestions1,#gender1,#dropdown1{
   font-size: 16px;
   color: red;
 }
@@ -197,12 +197,12 @@ body{
 
 #feedback1{
   position: absolute;
-  top: 1381px;
+  top: 1469px;
 }
 
 #suggestions1{
   position: absolute;
-  top: 1671px;
+  top: 1742px;
 }
 
 .check{
@@ -223,7 +223,7 @@ body{
 }
 #gender1{
   position: absolute;
-  top: 1805px;
+  top: 1875px;
   margin: 0px;
 }
 
