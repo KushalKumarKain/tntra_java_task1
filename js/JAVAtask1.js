@@ -12,6 +12,7 @@ function validateform(){
     let mail = document.form.email.value;
     let feedback1 = document.form.feedback.value;
     let suggestions1 = document.form.suggestions.value;
+    var radioselect = document.form.querySelector('input[name="gender"]:checked');
 
     if (first_name == ""){
       let msg;
@@ -48,9 +49,9 @@ function validateform(){
       msg = "This field is required";
       document.getElementById("postal1").innerHTML = msg;
     }
-    if (num == ""){
+    if (num == "" || num == isNaN || num == length(10)){
       let msg;
-      msg = "This field is required";
+      msg = "This field is required and enter only numbers.";
       document.getElementById("num").innerHTML = msg;
     }
     if (mail == ""){
@@ -58,15 +59,26 @@ function validateform(){
       msg = "This field is required";
       document.getElementById("mail").innerHTML = msg;
     }
-    if (feedback1 == ""){
+    if (feedback1 == "" || feedback1 == length(100)){
       let msg;
       msg = "This field is required";
       document.getElementById("feedback1").innerHTML = msg;
     }
-    if (suggestions1 == ""){
+    if (suggestions1 == "" || suggestions1 == length(150)){
       let msg;
       msg = "This field is required";
       document.getElementById("suggestions1").innerHTML = msg;
+    }
+    {
+    if (radioselect != null){
+      document.getElementById("gender1").innerHTML= radioselect.value + " gender is selected";
+    }
+
+    else{
+      let msg;
+      msg = "This field is required";
+      document.getElementById("gender1").innerHTML = msg;
+    }
     }
     
     ;}

@@ -14,7 +14,7 @@ body{
 }
 
 #first_name,#num,#mail,#first_name,#last_name,#addline1,
-#addline2,#city1,#state1,#postal1,#feedback1,#suggestions1{
+#addline2,#city1,#state1,#postal1,#feedback1,#suggestions1,#gender1{
   font-size: 16px;
   color: red;
 }
@@ -32,11 +32,9 @@ body{
   width: 404px;
 }
 .lastname{
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left:444px;
-  top:-118px;
+  position: absolute;
+  left:770px;
+  top: 221px;
   line-height:30px;
   text-transform: capitalize;
   padding:0px;
@@ -44,8 +42,14 @@ body{
   width: 440px;
 }
 #first_name{
-	position: relative;
+	position: absolute;
 	width: 139px;
+  margin-right: 9px;
+  margin-top: 0px;
+  bottom: 146px;
+  margin-bottom: 0px;
+  top: 281px;
+  height: 18px;
 }
 .firstlabel{
   position: relative;
@@ -54,32 +58,56 @@ body{
   top:-15px;
 }
 .lastlabel{
-  position: relative;
+  position: absolute;
   text-transform: capitalize;
   font-size:14px;
-  left:445px;
-  top:-117px;
+  left:772px;
+  top:256px;
 }
 #last_name{
-	position: relative;
+	position: absolute;
 	width: 139px;
+  top: 280px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  left: 775px;
 }
 
+.address{
+  margin-top:80px ;
+}
 .address:after{
   content:" *";
   color: red;
 } 
+#addline1{
+  position: absolute;
+  top: 470px;
+  margin: 0px;
+}
+#addline2{
+  position: absolute;
+  top: 560px;
+  margin: 0px;
+}
 .city{
-  position: relative;
-  top:-10px;
+  position: absolute;
+  padding: 0px;
+  top:653px;
+  width: 30px;
+  bottom: 0px;
   text-transform: capitalize;
-  padding:0 22px;
   font-size: 15px;
-  left: -20px;
+  left: 332px;
+}
+#city1{
+  position: absolute;
+  width: 150px;
+  top: 650px;
 }
 .rajya{
   position: relative;
-  left:390px;
+  left:425px;
   top:-35px;
   line-height:30px;
   text-transform: capitalize;
@@ -92,14 +120,21 @@ body{
   text-transform: capitalize;
   font-size:14px;
   top:0px;
-  width: 440px;
+  width: 400px;
+  margin-top: 23px;
 }
 .state{
-  position: relative;
+  position: absolute;
   text-transform: capitalize;
   font-size:14px;
-  left:-55px;
-  top:-10px;
+  left:757px;
+  top:654px;
+}
+#state1{
+  position: absolute;
+  left: 760px;
+  top: 668px;
+  margin: 0px;
 }
 .streetadd{
   position: relative;
@@ -119,9 +154,15 @@ body{
   left: 0px;
   top: -18px;
 }
+#postal1{
+  position: absolute;
+  left: 330px;
+  top: 745px;
+}
 ::placeholder{
     color: gray;
 }
+
 
 .number{
   height: 30px;
@@ -131,6 +172,11 @@ body{
 .number:after {
 	content:" *";
 	color: red;
+}
+#num{
+  position: absolute;
+  top: 858px;
+  left: 335px;
 }
 
 .email{
@@ -143,6 +189,20 @@ body{
   font-size:15px;
   left:0px;
   top:-20px;
+}
+#mail{
+  position: absolute;
+  top: 963px;
+}
+
+#feedback1{
+  position: absolute;
+  top: 1381px;
+}
+
+#suggestions1{
+  position: absolute;
+  top: 1671px;
 }
 
 .check{
@@ -160,6 +220,11 @@ body{
 .option{
 	width: 150px;
 	font-size: 17px;
+}
+#gender1{
+  position: absolute;
+  top: 1805px;
+  margin: 0px;
 }
 
 table,th,td{
