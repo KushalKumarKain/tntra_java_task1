@@ -13,7 +13,7 @@ body{
   padding-bottom: 30px;
 }
 
-#f_name-error,#num-error,#mail-error,#l_name-error,#last_name-error,#addressline1-error,
+#f_name-error,#nume-error,#email-error,#l_name-error,#last_name-error,#addressline1-error,
 #addressline2-error,#city-error,#state-error,#postal-error,#feedback-error,#suggestions-error,#gender-error,#dropdown-error{
   font-size: 16px;
   color: red;
@@ -81,20 +81,22 @@ body{
   content:" *";
   color: red;
 } 
-#addressline-error{
+#addressline1-error{
   position: absolute;
   top: 470px;
+  left: 331px;
   margin: 0px;
 }
-#addressline-error{
+#addressline2-error{
   position: absolute;
-  top: 560px;
+  top: 553px;
+  left: 331px;
   margin: 0px;
 }
 .city{
   position: absolute;
   padding: 0px;
-  top:653px;
+  top: 654px;
   width: 30px;
   bottom: 0px;
   text-transform: capitalize;
@@ -104,7 +106,8 @@ body{
 #city-error{
   position: absolute;
   width: 150px;
-  top: 650px;
+  top: 667px;
+  left: 328px;
 }
 .rajya{
   position: relative;
@@ -129,25 +132,25 @@ body{
   text-transform: capitalize;
   font-size:14px;
   left:757px;
-  top:654px;
+  top:655px;
 }
 #state-error{
   position: absolute;
-  left: 760px;
-  top: 668px;
+  left: 755px;
+  top: 669px;
   margin: 0px;
 }
 .streetadd{
-  position: relative;
+  position: absolute;
   font-size: 15px;
-  left: 0px;
-  top: -18px;
+  left: 328px;
+  top: 448px;
 }
 .streetadd2{
-  position: relative;
+  position: absolute;
   font-size: 15px;
-  left: 0px;
-  top: -18px;
+  left: 328px;
+  top: 538px;
 }
 .postal{
   position: relative;
@@ -158,7 +161,7 @@ body{
 #postal-error{
   position: absolute;
   left: 330px;
-  top: 745px;
+  top: 760px;
 }
 ::placeholder{
     color: gray;
@@ -176,8 +179,8 @@ body{
 }
 #nume-error{
   position: absolute;
-  top: 858px;
-  left: 335px;
+  top: 872px;
+  left: 330px;
 }
 
 .email{
@@ -193,17 +196,26 @@ body{
 }
 #email-error{
   position: absolute;
-  top: 963px;
+  top: 983px;
+  left: 330px;
+}
+
+#dropdown-error{
+  position: absolute;
+  top: 1112px;
+  left: 330px;
 }
 
 #feedback-error{
   position: absolute;
-  top: 1469px;
+  top: 1400px;
+  left: 330px;
 }
 
 #suggestions-error{
   position: absolute;
-  top: 1742px;
+  top: 1690px;
+  left: 330px;
 }
 
 .check{
@@ -224,7 +236,8 @@ body{
 }
 #gender-error{
   position: absolute;
-  top: 1875px;
+  top: 1815px;
+  left: 330px;
   margin: 0px;
 }
 
