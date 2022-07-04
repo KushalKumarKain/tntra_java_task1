@@ -80,10 +80,18 @@ body{
   content:" *";
   color: red;
 } 
+#addressline1{
+  width: 870px;
+  height: 40px;
+}
 #addline1{
   position: absolute;
   top: 470px;
   margin: 0px;
+}
+#addressline2{
+  width: 870px;
+  height: 40px;
 }
 #addline2{
   position: absolute;
@@ -93,7 +101,7 @@ body{
 .city{
   position: absolute;
   padding: 0px;
-  top:653px;
+  top:640px;
   width: 30px;
   bottom: 0px;
   text-transform: capitalize;
@@ -121,14 +129,13 @@ body{
   font-size:14px;
   top:0px;
   width: 400px;
-  margin-top: 23px;
 }
 .state{
   position: absolute;
   text-transform: capitalize;
   font-size:14px;
   left:757px;
-  top:654px;
+  top:640px;
 }
 #state1{
   position: absolute;
@@ -153,6 +160,10 @@ body{
   font-size: 15px;
   left: 0px;
   top: -18px;
+}
+#postal{
+  width: 870px;
+  height: 40px;
 }
 #postal1{
   position: absolute;
