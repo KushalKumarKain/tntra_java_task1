@@ -81,11 +81,19 @@ body{
   content:" *";
   color: red;
 } 
+#addressline1{
+  width: 870px;
+  height: 40px;
+}
 #addressline1-error{
   position: absolute;
   top: 470px;
   left: 331px;
   margin: 0px;
+}
+#addressline2{
+  width: 870px;
+  height: 40px;
 }
 #addressline2-error{
   position: absolute;
@@ -96,9 +104,8 @@ body{
 .city{
   position: absolute;
   padding: 0px;
-  top: 654px;
+  top: 665px;
   width: 30px;
-  bottom: 0px;
   text-transform: capitalize;
   font-size: 15px;
   left: 332px;
@@ -106,7 +113,7 @@ body{
 #city-error{
   position: absolute;
   width: 150px;
-  top: 667px;
+  top: 678px;
   left: 328px;
 }
 .rajya{
@@ -132,31 +139,40 @@ body{
   text-transform: capitalize;
   font-size:14px;
   left:757px;
-  top:655px;
+  top:665px;
 }
 #state-error{
   position: absolute;
   left: 755px;
-  top: 669px;
+  top: 675px;
   margin: 0px;
 }
 .streetadd{
   position: absolute;
   font-size: 15px;
   left: 328px;
-  top: 448px;
+  top: 452px;
 }
 .streetadd2{
   position: absolute;
   font-size: 15px;
   left: 328px;
-  top: 538px;
+  top: 550px;
+}
+#addressline2-error{
+  position: relative;
+  top: 45px;
+  left: -870px;
 }
 .postal{
   position: absolute;
   font-size: 15px;
   left: 334px;
-  top: 745px;
+  top: 765px;
+}
+#postal{
+  width: 870px;
+  height: 40px;
 }
 .zipcode{
   position: relative;
@@ -168,7 +184,7 @@ body{
 #postal-error{
   position: absolute;
   left: 330px;
-  top: 760px;
+  top: 780px;
 }
 ::placeholder{
     color: gray;
