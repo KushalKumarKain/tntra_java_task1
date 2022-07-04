@@ -104,7 +104,7 @@ body{
 .city{
   position: absolute;
   padding: 0px;
-  top: 665px;
+  top: 680px;
   width: 30px;
   text-transform: capitalize;
   font-size: 15px;
@@ -113,8 +113,8 @@ body{
 #city-error{
   position: absolute;
   width: 150px;
-  top: 678px;
-  left: 328px;
+  top: 692px;
+  left: 335px;
 }
 .rajya{
   position: relative;
@@ -139,12 +139,12 @@ body{
   text-transform: capitalize;
   font-size:14px;
   left:757px;
-  top:665px;
+  top:680px;
 }
 #state-error{
   position: absolute;
   left: 755px;
-  top: 675px;
+  top: 690px;
   margin: 0px;
 }
 .streetadd{
@@ -168,7 +168,7 @@ body{
   position: absolute;
   font-size: 15px;
   left: 334px;
-  top: 765px;
+  top: 770px;
 }
 #postal{
   width: 870px;
@@ -184,7 +184,7 @@ body{
 #postal-error{
   position: absolute;
   left: 330px;
-  top: 780px;
+  top: 785px;
 }
 ::placeholder{
     color: gray;
@@ -203,7 +203,7 @@ body{
 }
 #nume-error{
   position: absolute;
-  top: 880px;
+  top: 910px;
   left: 330px;
 }
 
@@ -220,28 +220,28 @@ body{
 }
 #email-error{
   position: absolute;
-  top: 983px;
+  top: 1010px;
   left: 330px;
 }
 
 
 #dropdown-error{
   position: absolute;
-  top: 1112px;
+  top: 1140px;
   left: 330px;
 }
 
 
 #feedback-error{
   position: absolute;
-  top: 1400px;
+  top: 1430px;
   left: 330px;
 }
 
 
 #suggestions-error{
   position: absolute;
-  top: 1690px;
+  top: 1725px;
   left: 330px;
 }
 
@@ -265,7 +265,7 @@ body{
 }
 #gender-error{
   position: absolute;
-  top: 1815px;
+  top: 1840px;
   left: 330px;
   margin: 0px;
 }
